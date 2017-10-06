@@ -1,0 +1,30 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node src",
+    "test": "eslint src && jest --coverage",
+    "precommit": "yarn test",
+    "prepush": "yarn test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-jest": "^21.2.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-compat": "^2.0.0",
+    "eslint-plugin-flowtype": "^2.39.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "flow-bin": "^0.56.0",
+    "husky": "^0.14.3",
+    "jest": "^21.2.1"
+  }
+}
