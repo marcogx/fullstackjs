@@ -1,12 +1,16 @@
+
+// @flow
 class Dog {
-  constructor(name) {
-    this.name = name
+  name: string
+
+  constructor(name: string) {
+    this.name = name;
   }
 
   bark() {
-    return `I am ${this.name}`
+    return `Wah wah, I am ${this.name}`;
   }
 }
 
 // module.exports = Dog
-export default Dog
+export default Dog;

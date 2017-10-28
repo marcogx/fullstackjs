@@ -1292,18 +1292,18 @@ eslint-module-utils@^2.1.1:
     debug "^2.6.8"
     pkg-dir "^1.0.0"
 
-eslint-plugin-compat@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-compat/-/eslint-plugin-compat-2.0.0.tgz#b91bdfc6e7f5e79432ea7a88e274ce31f218bb15"
+eslint-plugin-compat@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-compat/-/eslint-plugin-compat-2.0.1.tgz#4912e5447d3095f10e7cb785b2af2a55cd12ef8b"
   dependencies:
     babel-runtime "^6.26.0"
     browserslist "^2.4.0"
     caniuse-db "^1.0.30000741"
     requireindex "^1.1.0"
 
-eslint-plugin-flowtype@^2.39.0:
-  version "2.39.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-flowtype/-/eslint-plugin-flowtype-2.39.0.tgz#40d14d8799717d3fc90658ceb6fc2b6cdf2a5531"
+eslint-plugin-flowtype@^2.39.1:
+  version "2.39.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-flowtype/-/eslint-plugin-flowtype-2.39.1.tgz#b5624622a0388bcd969f4351131232dcb9649cd5"
   dependencies:
     lodash "^4.15.0"
 
@@ -1577,9 +1577,9 @@ flat-cache@^1.2.1:
     graceful-fs "^4.1.2"
     write "^0.2.1"
 
-flow-bin@^0.56.0:
-  version "0.56.0"
-  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.56.0.tgz#ce43092203a344ba9bf63c0cabe95d95145f6cad"
+flow-bin@^0.57.3:
+  version "0.57.3"
+  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.57.3.tgz#843fb80a821b6d0c5847f7bb3f42365ffe53b27b"
 
 for-in@^1.0.1:
   version "1.0.2"

@@ -8,9 +8,9 @@
     "compat"
   ],
   "rules": {
-    "semi": [1, "never"],
-    "no-unexpected-multiline": 1
-    // "compat/compat": 2
+    // "semi": [2, "never"],
+    // "no-unexpected-multiline": 2
+    "compat/compat": 2
   },
   "env": {
     "jest": true
